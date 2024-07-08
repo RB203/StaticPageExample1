@@ -1,0 +1,42 @@
+html {
+	font-size: 10px; /* px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
+	font-family: "Open Sans", sans-serif; /* Este debe ser el resto del resultado que obtuviste de Google fonts */
+	background-color: #00FF00;
+}
+
+body {
+	width: 1000px;
+	margin: 0 auto; /*Vertical y Horizontal*/
+	background-color: #ff9500;
+	padding: 0 20px 20px 20px; /*arriba, derecha, abajo e izquierda (osea sentido horario)*/
+	border: 5px solid blue;
+}	
+
+img{
+	display: block; /*establece que un elemento ocupará todo el espacio disponible por defecto y el siguiente elemento a este se situará por debajo*/
+	margin: 0 auto;
+}
+
+p,li,h1,a {
+	color: red;
+}
+
+h1 {
+	font-size: 60px;
+	margin: 0; /*Para que este junto ya que la pagina se dedica a separarlo*/
+	padding: 20px 0;
+	color: #00539f;
+	text-shadow: 3px 3px 1px black; /*desplazamiento horizontal, vertical y desenfoque de la sombra*/
+}
+
+a:hover{ /*Si alguien pasa el cursor sobre todos los elementos "a"*/
+	color:green;
+}
+
+p:hover{ /*Si alguien pasa el cursor sobre todos los elementos "p"*/
+	color:blue;
+}
+
+.wat{ /*Para todos los elementos que sean de la clase "wat"*/
+	color:gold;
+}
